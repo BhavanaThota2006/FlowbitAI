@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CRITICAL: The map container needs a definite height */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+/* This targets the container Leaflet creates */
+.leaflet-container {
+    height: 100% !important;
+    width: 100% !important;
+}
