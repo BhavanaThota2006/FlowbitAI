@@ -5,21 +5,21 @@
    ```bash
    git clone <YOUR_REPO_LINK_HERE>
    
-Install dependencies:
-npm install
-Run the application:
-npm run dev
-Run the Test Suite:
-npx playwright test
+Install dependencies:<br>
+npm install<br>
+Run the application:<br>
+npm run dev<br>
+Run the Test Suite:<br>
+npx playwright test<br><br>
 
-Tech Stack
-Framework: React (Vite)
-Styling: Tailwind CSS
-Map Library: Leaflet (via react-leaflet)
-Testing: Playwright E2E
-State Management: React Local State (Context API ready)
+**Tech Stack**<br>
+Framework: React (Vite)<br>
+Styling: Tailwind CSS<br>
+Map Library: Leaflet (via react-leaflet)<br>
+Testing: Playwright E2E<br>
+State Management: React Local State (Context API ready)<br><br>
 
-Architectural Decisions (Q&A)
+**Architectural Decisions (Q&A)**
 1. Map Library Choice
 Why Leaflet? I selected Leaflet over MapLibre or OpenLayers because:
 WMS Support: It has native, robust support for WMS layers (required for the NRW Geobasis data).
