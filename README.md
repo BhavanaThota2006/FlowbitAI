@@ -2,8 +2,9 @@
 
 ##  Setup & Installation
 1. **Clone the repository:**
-   ```bash
-   git clone <YOUR_REPO_LINK_HERE>
+   ```bash 
+   git clone https://github.com/BhavanaThota2006/FlowbitAI.git
+
    
 Install dependencies:<br>
 npm install<br>
